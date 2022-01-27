@@ -1,0 +1,9 @@
+package padroesdeProjeto.facade;
+
+public class Teste {
+	public static void main(String []args) {
+		Facade facade = new Facade();
+		facade.migrarClieante("Mario", "123321487");
+		
+	}
+}

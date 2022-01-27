@@ -1,0 +1,12 @@
+package padroesdeProjeto;
+//SingletonEager
+public class Singleton02 {
+	private static Singleton02 instancia = new Singleton02();
+	
+	private Singleton02(){
+		super();
+	}
+	public static Singleton02 getInstancia() {
+		return instancia;
+	}
+}

@@ -1,0 +1,22 @@
+package padroesdeProjeto;
+
+public class Teste {
+	public static void main(String[] args) {
+		//Testes do Design Pattern Singleton:
+		
+		Singleton01 lazy = Singleton01.getInstancia();
+		System.out.println(lazy);
+		lazy = Singleton01.getInstancia();
+		System.out.println(lazy);
+		
+		Singleton02 eager = Singleton02.getInstancia();
+		System.out.println(eager);
+		eager = Singleton02.getInstancia();
+		System.out.println(eager);
+		
+		Singleton03 holder = Singleton03.getInstancia();
+		System.out.println(holder);
+		holder = Singleton03.getInstancia();
+		System.out.println(holder);
+	}
+}

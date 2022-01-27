@@ -1,0 +1,14 @@
+package padroesdeProjeto;
+//SingletonLazy
+public class Singleton01 {
+	private static Singleton01 instancia;
+	private Singleton01() {
+		super();
+	}
+	public static Singleton01 getInstancia() {
+		if(instancia == null) {
+			instancia = new Singleton01();
+		}
+		return instancia;
+	}
+}

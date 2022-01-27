@@ -1,0 +1,13 @@
+package padroesdeProjeto;
+//SingletonLazyHolder
+public class Singleton03 {
+	private static class Holder{
+	public static Singleton03 instancia = new Singleton03();
+	}
+	private Singleton03(){
+		super();
+	}
+	public static Singleton03 getInstancia() {
+		return Holder.instancia;
+	}
+}
